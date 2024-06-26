@@ -256,8 +256,8 @@ class CheckIn {
     await this.sdkTask.run();
     console.log(`运行 ${this.growthTask.taskName}`);
     await this.growthTask.run();
-    console.log(`运行 ${this.dipLuckyTask.taskName}`);
-    await this.dipLuckyTask.run();
+    // console.log(`运行 ${this.dipLuckyTask.taskName}`);
+    // await this.dipLuckyTask.run();
     console.log(`运行 ${this.lotteriesTask.taskName}`);
     await this.lotteriesTask.run(this.growthTask, this.dipLuckyTask);
     // console.log(`运行 ${this.bugfixTask.taskName}`);
